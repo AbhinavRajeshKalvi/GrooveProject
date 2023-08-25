@@ -78,7 +78,7 @@ table, th, tr, td {
 #quantity{
     width: 40px;
 }
-h3{
+h4{
     font-weight: normal;
 }
 #phonenumber{
@@ -102,5 +102,15 @@ footer{
     top: 250px;
     position: relative;
     padding: 30px;
+}
 
+tr:hover{
+    background-color: rgb(237,234,228);
+}    
+
+#Thanks{
+    bottom: 65px;
+    position: relative;
+    font-weight: bold;
+    display: none;
 }
